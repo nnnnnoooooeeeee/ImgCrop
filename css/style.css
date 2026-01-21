@@ -1,0 +1,31 @@
+body{
+    font-family:Arial;
+    background:#f4f4f4;
+    padding:20px;
+    text-align:center
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,.1)
+}
+
+#canvas{
+    border:2px dashed #555;
+    cursor:grab;
+    display:block;
+    margin:20px auto;
+}
+
+.controls{
+    margin:15px
+}
+
+input,button{
+    padding:8px 12px;
+    margin:5px
+}

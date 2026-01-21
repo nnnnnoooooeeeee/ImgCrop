@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ImgCrop : Custom Size Photo Crop Tool</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Img Crop</h1>
+    <h2>Custom Size Photo Cropper (cm)</h2>
+    <input type="file" id="upload" accept="image/*"><br><br>
+    Width (cm): <input type="number" id="wcm" value="3" step="0.1">
+    Height (cm): <input type="number" id="hcm" value="4" step="0.1">
+    <button id="applySize">Apply Size</button>
+    <div class="controls">
+        <button id="downloadBtn">Download</button>
+    </div>
+    <canvas id="canvas" width="300" height="400"></canvas>
+    <p>Drag the photo to adjust position</p>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
